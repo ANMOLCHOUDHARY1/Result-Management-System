@@ -1,0 +1,26 @@
+h2{
+    color: white;
+}
+h3{
+    color: black;
+}
+.card{
+    margin-top: 15px;
+    border: 1px solid black;
+    width: 550px;
+    padding: 54px;
+    position:absolute;
+    top: 20%;
+    left: 30%;
+    background-color: rgb(124, 201, 236);
+}
+.result{
+    margin-top: 15px;
+    border: 1px solid black;
+    width: 360px;
+    padding: 54px;
+    position:absolute;
+    top: 90%;
+    left: 38%;
+    background-color: rgb(124, 201, 236);
+}

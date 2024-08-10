@@ -1,0 +1,49 @@
+<nav class="navbar navbar-light bg-primary">
+    <div class="container-fluid">
+        <h2>Result Management System</h2>
+        <div class="d-flex">
+            <button routerLink="/main" (click)="logout()" type="button" class="btn btn-danger"
+                data-bs-target="#exampleModal">
+                Logout
+            </button>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h3> Find Result </h3>
+                    <hr>
+                </div>
+                <form [formGroup]="resultForm" (ngSubmit)="checkResult()">
+                    <div class="mb-3">
+                        <label class="form-label">Roll No.</label>
+                        <input formControlName="roll_no" type="email" class="form-control"
+                            placeholder="Enter your roll no." aria-describedby="emailHelp" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input formControlName="name" type="text" class="form-control" placeholder="Enter your name"
+                            required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Search</button>&nbsp;
+                    <button (click)="clearTextField()" type="button" class="btn btn-danger">Clear</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="showResult" class="result">
+    <button class="close-button btn btn-link" (click)="closeResult()" data-toggle="tooltip" title="Close">
+        <i>close</i>
+    </button>
+    <h3>Result</h3>
+    <p>Roll No. : {{ student?.roll_no }}</p>
+    <p>Name : {{ student?.name }}</p>
+    <p>Date of Birth : {{ student?.dob }}</p>
+    <p>Score : {{ student?.score }}</p>
+</div>
+

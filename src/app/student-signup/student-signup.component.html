@@ -1,0 +1,31 @@
+<nav class="navbar navbar-light bg-primary">
+    <div class="container-fluid">
+        <h2>Result Management System</h2>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1> Student Signup </h1>
+                    <hr>
+                </div>
+                <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+                    <div class="mb-3">
+                        <label class="form-label"> User Name</label>
+                        <input formControlName="name" type="email" class="form-control" id="exampleInputEmail1"
+                            placeholder="Enter User Name" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input formControlName="password" type="password" class="form-control"
+                            id="exampleInputPassword1" placeholder="Enter Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Signup</button>
+                </form>
+                <a routerLink="/student_login">Already user? Click to Login!</a>
+            </div>
+        </div>
+    </div>
+</div>

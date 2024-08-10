@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "id": 8,
+      "roll_no": "123",
+      "name": "new5",
+      "dob": "2023-05-05",
+      "score": "23"
+    },
+    {
+      "id": 9,
+      "roll_no": "22",
+      "name": "new4",
+      "dob": "2023-05-27",
+      "score": "43"
+    },
+    {
+      "id": 10,
+      "roll_no": "43",
+      "name": "new3",
+      "dob": "2023-05-13",
+      "score": "23"
+    },
+    {
+      "id": 11,
+      "roll_no": "1111",
+      "name": "new2",
+      "dob": "2023-05-09",
+      "score": "222"
+    },
+    {
+      "id": 12,
+      "roll_no": "2",
+      "name": "new1",
+      "dob": "2023-06-07",
+      "score": "23"
+    },
+    {
+      "id": 13,
+      "roll_no": "12",
+      "name": "new",
+      "dob": "2023-06-07",
+      "score": "56"
+    }
+  ],
+  "teacher": [
+    {
+      "name": "Teacher",
+      "password": "teacher",
+      "id": 2
+    }
+  ],
+  "student": [
+    {
+      "name": "Anmol",
+      "password": "abc",
+      "id": 1
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

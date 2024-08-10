@@ -1,0 +1,80 @@
+{
+  "posts": [
+    {
+      "id": 7,
+      "roll_no": "22",
+      "name": "saniya",
+      "dob": "2001-12-22",
+      "score": "95"
+    },
+    {
+      "id": 9,
+      "roll_no": "22",
+      "name": "Rahul",
+      "dob": "2023-05-27",
+      "score": "43"
+    },
+    {
+      "id": 12,
+      "roll_no": "112",
+      "name": "mn",
+      "dob": "2023-07-01",
+      "score": "78"
+    },
+    {
+      "id": 13,
+      "roll_no": "122",
+      "name": "xyz",
+      "dob": "2023-02-03",
+      "score": "96"
+    }
+  ],
+  "teacher": [
+    {
+      "name": "Teacher",
+      "password": "teacher",
+      "id": 2
+    },
+    {
+      "name": "anmol",
+      "password": "0051",
+      "id": 3
+    },
+    {
+      "name": "qwe",
+      "password": "123",
+      "id": 4
+    }
+  ],
+  "student": [
+    {
+      "name": "Abhinav",
+      "password": "abc",
+      "id": 1
+    },
+    {
+      "name": "anmol",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "name": "mn",
+      "password": "121",
+      "id": 3
+    },
+    {
+      "name": "anmol12",
+      "password": "anmol",
+      "id": 4
+    },
+    {
+      "name": "xyz",
+      "password": "1234",
+      "id": 5
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
